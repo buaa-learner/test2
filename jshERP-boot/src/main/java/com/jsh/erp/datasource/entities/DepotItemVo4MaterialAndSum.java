@@ -4,23 +4,23 @@ import java.math.BigDecimal;
 
 public class DepotItemVo4MaterialAndSum {
 
-    private Long materialExtendId;
+  private Long materialExtendId;
 
-    private BigDecimal operNumber;
+  private BigDecimal operNumber;
 
-    public Long getMaterialExtendId() {
-        return materialExtendId;
-    }
+  public Long getMaterialExtendId() {
+    return materialExtendId;
+  }
 
-    public void setMaterialExtendId(Long materialExtendId) {
-        this.materialExtendId = materialExtendId;
-    }
+  public void setMaterialExtendId(Long materialExtendId) {
+    this.materialExtendId = materialExtendId;
+  }
 
-    public BigDecimal getOperNumber() {
-        return operNumber;
-    }
+  public BigDecimal getOperNumber() {
+    return operNumber;
+  }
 
-    public void setOperNumber(BigDecimal operNumber) {
-        this.operNumber = operNumber;
-    }
+  public void setOperNumber(BigDecimal operNumber) {
+    this.operNumber = operNumber;
+  }
 }

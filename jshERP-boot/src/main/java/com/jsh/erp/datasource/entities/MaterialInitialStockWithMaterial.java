@@ -4,23 +4,23 @@ import java.math.BigDecimal;
 
 public class MaterialInitialStockWithMaterial {
 
-    private Long materialId;
+  private Long materialId;
 
-    private BigDecimal number;
+  private BigDecimal number;
 
-    public Long getMaterialId() {
-        return materialId;
-    }
+  public Long getMaterialId() {
+    return materialId;
+  }
 
-    public void setMaterialId(Long materialId) {
-        this.materialId = materialId;
-    }
+  public void setMaterialId(Long materialId) {
+    this.materialId = materialId;
+  }
 
-    public BigDecimal getNumber() {
-        return number;
-    }
+  public BigDecimal getNumber() {
+    return number;
+  }
 
-    public void setNumber(BigDecimal number) {
-        this.number = number;
-    }
+  public void setNumber(BigDecimal number) {
+    this.number = number;
+  }
 }

@@ -2,63 +2,63 @@ package com.jsh.erp.datasource.vo;
 
 public class MaterialVoSearch {
 
-    private String barCode;
+  private String barCode;
 
-    private String name;
+  private String name;
 
-    private String standard;
+  private String standard;
 
-    private String model;
+  private String model;
 
-    private String color;
+  private String color;
 
-    private String unit;
+  private String unit;
 
-    public String getBarCode() {
-        return barCode;
-    }
+  public String getBarCode() {
+    return barCode;
+  }
 
-    public void setBarCode(String barCode) {
-        this.barCode = barCode;
-    }
+  public void setBarCode(String barCode) {
+    this.barCode = barCode;
+  }
 
-    public String getName() {
-        return name;
-    }
+  public String getName() {
+    return name;
+  }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+  public void setName(String name) {
+    this.name = name;
+  }
 
-    public String getStandard() {
-        return standard;
-    }
+  public String getStandard() {
+    return standard;
+  }
 
-    public void setStandard(String standard) {
-        this.standard = standard;
-    }
+  public void setStandard(String standard) {
+    this.standard = standard;
+  }
 
-    public String getModel() {
-        return model;
-    }
+  public String getModel() {
+    return model;
+  }
 
-    public void setModel(String model) {
-        this.model = model;
-    }
+  public void setModel(String model) {
+    this.model = model;
+  }
 
-    public String getColor() {
-        return color;
-    }
+  public String getColor() {
+    return color;
+  }
 
-    public void setColor(String color) {
-        this.color = color;
-    }
+  public void setColor(String color) {
+    this.color = color;
+  }
 
-    public String getUnit() {
-        return unit;
-    }
+  public String getUnit() {
+    return unit;
+  }
 
-    public void setUnit(String unit) {
-        this.unit = unit;
-    }
+  public void setUnit(String unit) {
+    this.unit = unit;
+  }
 }

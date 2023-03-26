@@ -10,5 +10,5 @@ import java.lang.annotation.*;
 @Inherited
 @Documented
 public @interface ResourceInfo {
-    String value();
+  String value();
 }

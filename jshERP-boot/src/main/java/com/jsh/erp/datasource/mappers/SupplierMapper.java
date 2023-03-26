@@ -6,25 +6,26 @@ import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
 public interface SupplierMapper {
-    long countByExample(SupplierExample example);
+  long countByExample(SupplierExample example);
 
-    int deleteByExample(SupplierExample example);
+  int deleteByExample(SupplierExample example);
 
-    int deleteByPrimaryKey(Long id);
+  int deleteByPrimaryKey(Long id);
 
-    int insert(Supplier record);
+  int insert(Supplier record);
 
-    int insertSelective(Supplier record);
+  int insertSelective(Supplier record);
 
-    List<Supplier> selectByExample(SupplierExample example);
+  List<Supplier> selectByExample(SupplierExample example);
 
-    Supplier selectByPrimaryKey(Long id);
+  Supplier selectByPrimaryKey(Long id);
 
-    int updateByExampleSelective(@Param("record") Supplier record, @Param("example") SupplierExample example);
+  int updateByExampleSelective(
+      @Param("record") Supplier record, @Param("example") SupplierExample example);
 
-    int updateByExample(@Param("record") Supplier record, @Param("example") SupplierExample example);
+  int updateByExample(@Param("record") Supplier record, @Param("example") SupplierExample example);
 
-    int updateByPrimaryKeySelective(Supplier record);
+  int updateByPrimaryKeySelective(Supplier record);
 
-    int updateByPrimaryKey(Supplier record);
+  int updateByPrimaryKey(Supplier record);
 }

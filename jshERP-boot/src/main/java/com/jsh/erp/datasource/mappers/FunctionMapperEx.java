@@ -1,22 +1,22 @@
 package com.jsh.erp.datasource.mappers;
 
 import com.jsh.erp.datasource.entities.FunctionEx;
-import org.apache.ibatis.annotations.Param;
-
 import java.util.Date;
 import java.util.List;
+import org.apache.ibatis.annotations.Param;
 
 public interface FunctionMapperEx {
 
-    List<FunctionEx> selectByConditionFunction(
-            @Param("name") String name,
-            @Param("type") String type,
-            @Param("offset") Integer offset,
-            @Param("rows") Integer rows);
+  List<FunctionEx> selectByConditionFunction(
+      @Param("name") String name,
+      @Param("type") String type,
+      @Param("offset") Integer offset,
+      @Param("rows") Integer rows);
 
-    Long countsByFunction(
-            @Param("name") String name,
-            @Param("type") String type);
+  Long countsByFunction(@Param("name") String name, @Param("type") String type);
 
-    int batchDeleteFunctionByIds(@Param("updateTime") Date updateTime, @Param("updater") Long updater, @Param("ids") String ids[]);
+  int batchDeleteFunctionByIds(
+      @Param("updateTime") Date updateTime,
+      @Param("updater") Long updater,
+      @Param("ids") String ids[]);
 }

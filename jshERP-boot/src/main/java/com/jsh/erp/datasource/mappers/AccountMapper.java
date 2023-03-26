@@ -6,25 +6,26 @@ import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
 public interface AccountMapper {
-    long countByExample(AccountExample example);
+  long countByExample(AccountExample example);
 
-    int deleteByExample(AccountExample example);
+  int deleteByExample(AccountExample example);
 
-    int deleteByPrimaryKey(Long id);
+  int deleteByPrimaryKey(Long id);
 
-    int insert(Account record);
+  int insert(Account record);
 
-    int insertSelective(Account record);
+  int insertSelective(Account record);
 
-    List<Account> selectByExample(AccountExample example);
+  List<Account> selectByExample(AccountExample example);
 
-    Account selectByPrimaryKey(Long id);
+  Account selectByPrimaryKey(Long id);
 
-    int updateByExampleSelective(@Param("record") Account record, @Param("example") AccountExample example);
+  int updateByExampleSelective(
+      @Param("record") Account record, @Param("example") AccountExample example);
 
-    int updateByExample(@Param("record") Account record, @Param("example") AccountExample example);
+  int updateByExample(@Param("record") Account record, @Param("example") AccountExample example);
 
-    int updateByPrimaryKeySelective(Account record);
+  int updateByPrimaryKeySelective(Account record);
 
-    int updateByPrimaryKey(Account record);
+  int updateByPrimaryKey(Account record);
 }
