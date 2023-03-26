@@ -6,25 +6,25 @@ import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
 public interface MsgMapper {
-    long countByExample(MsgExample example);
+  long countByExample(MsgExample example);
 
-    int deleteByExample(MsgExample example);
+  int deleteByExample(MsgExample example);
 
-    int deleteByPrimaryKey(Long id);
+  int deleteByPrimaryKey(Long id);
 
-    int insert(Msg record);
+  int insert(Msg record);
 
-    int insertSelective(Msg record);
+  int insertSelective(Msg record);
 
-    List<Msg> selectByExample(MsgExample example);
+  List<Msg> selectByExample(MsgExample example);
 
-    Msg selectByPrimaryKey(Long id);
+  Msg selectByPrimaryKey(Long id);
 
-    int updateByExampleSelective(@Param("record") Msg record, @Param("example") MsgExample example);
+  int updateByExampleSelective(@Param("record") Msg record, @Param("example") MsgExample example);
 
-    int updateByExample(@Param("record") Msg record, @Param("example") MsgExample example);
+  int updateByExample(@Param("record") Msg record, @Param("example") MsgExample example);
 
-    int updateByPrimaryKeySelective(Msg record);
+  int updateByPrimaryKeySelective(Msg record);
 
-    int updateByPrimaryKey(Msg record);
+  int updateByPrimaryKey(Msg record);
 }

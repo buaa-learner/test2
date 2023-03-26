@@ -1,14 +1,14 @@
 package com.jsh.erp.datasource.entities;
 
-public class RoleEx extends Role{
+public class RoleEx extends Role {
 
-    private String priceLimitStr;
+  private String priceLimitStr;
 
-    public String getPriceLimitStr() {
-        return priceLimitStr;
-    }
+  public String getPriceLimitStr() {
+    return priceLimitStr;
+  }
 
-    public void setPriceLimitStr(String priceLimitStr) {
-        this.priceLimitStr = priceLimitStr;
-    }
+  public void setPriceLimitStr(String priceLimitStr) {
+    this.priceLimitStr = priceLimitStr;
+  }
 }

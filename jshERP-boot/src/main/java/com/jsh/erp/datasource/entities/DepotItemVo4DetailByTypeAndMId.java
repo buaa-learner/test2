@@ -5,83 +5,83 @@ import java.util.Date;
 
 public class DepotItemVo4DetailByTypeAndMId {
 
-    private String number;
+  private String number;
 
-    private String barCode;
+  private String barCode;
 
-    private String materialName;
+  private String materialName;
 
-    private String type;
+  private String type;
 
-    private String subType;
+  private String subType;
 
-    private BigDecimal bnum;
+  private BigDecimal bnum;
 
-    private String depotName;
+  private String depotName;
 
-    private Date otime;
+  private Date otime;
 
-    public String getNumber() {
-        return number;
-    }
+  public String getNumber() {
+    return number;
+  }
 
-    public void setNumber(String number) {
-        this.number = number;
-    }
+  public void setNumber(String number) {
+    this.number = number;
+  }
 
-    public String getBarCode() {
-        return barCode;
-    }
+  public String getBarCode() {
+    return barCode;
+  }
 
-    public void setBarCode(String barCode) {
-        this.barCode = barCode;
-    }
+  public void setBarCode(String barCode) {
+    this.barCode = barCode;
+  }
 
-    public String getMaterialName() {
-        return materialName;
-    }
+  public String getMaterialName() {
+    return materialName;
+  }
 
-    public void setMaterialName(String materialName) {
-        this.materialName = materialName;
-    }
+  public void setMaterialName(String materialName) {
+    this.materialName = materialName;
+  }
 
-    public String getType() {
-        return type;
-    }
+  public String getType() {
+    return type;
+  }
 
-    public void setType(String type) {
-        this.type = type;
-    }
+  public void setType(String type) {
+    this.type = type;
+  }
 
-    public String getSubType() {
-        return subType;
-    }
+  public String getSubType() {
+    return subType;
+  }
 
-    public void setSubType(String subType) {
-        this.subType = subType;
-    }
+  public void setSubType(String subType) {
+    this.subType = subType;
+  }
 
-    public BigDecimal getBnum() {
-        return bnum;
-    }
+  public BigDecimal getBnum() {
+    return bnum;
+  }
 
-    public void setBnum(BigDecimal bnum) {
-        this.bnum = bnum;
-    }
+  public void setBnum(BigDecimal bnum) {
+    this.bnum = bnum;
+  }
 
-    public String getDepotName() {
-        return depotName;
-    }
+  public String getDepotName() {
+    return depotName;
+  }
 
-    public void setDepotName(String depotName) {
-        this.depotName = depotName;
-    }
+  public void setDepotName(String depotName) {
+    this.depotName = depotName;
+  }
 
-    public Date getOtime() {
-        return otime;
-    }
+  public Date getOtime() {
+    return otime;
+  }
 
-    public void setOtime(Date otime) {
-        this.otime = otime;
-    }
+  public void setOtime(Date otime) {
+    this.otime = otime;
+  }
 }
