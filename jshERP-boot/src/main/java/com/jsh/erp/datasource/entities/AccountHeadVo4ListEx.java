@@ -1,6 +1,5 @@
 package com.jsh.erp.datasource.entities;
 
-
 public class AccountHeadVo4ListEx extends AccountHead {
 
   private String organName;

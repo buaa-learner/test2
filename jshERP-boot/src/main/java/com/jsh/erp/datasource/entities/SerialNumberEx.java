@@ -1,6 +1,5 @@
 package com.jsh.erp.datasource.entities;
 
-
 /** Description @Author: cjl @Date: 2019/1/21 17:32 */
 public class SerialNumberEx extends SerialNumber {
   /** 商品条码 */

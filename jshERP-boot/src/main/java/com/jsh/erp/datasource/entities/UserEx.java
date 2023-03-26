@@ -1,6 +1,5 @@
 package com.jsh.erp.datasource.entities;
 
-
 /** Description @Author: cjl @Date: 2019/3/8 15:12 */
 public class UserEx extends User {
   // 机构简称

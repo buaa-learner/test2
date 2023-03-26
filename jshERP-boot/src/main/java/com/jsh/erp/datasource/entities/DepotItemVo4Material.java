@@ -1,6 +1,5 @@
 package com.jsh.erp.datasource.entities;
 
-
 public class DepotItemVo4Material extends DepotItem {
 
   private String mname;
